@@ -5,8 +5,6 @@ import "./style/Product.css";
 function Product({ id, title, image, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
 
-  console.log("basket: ", basket);
-
   const addToBasket = () => {
     dispatch({
       type: "ADD_TO_BASKET",

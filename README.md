@@ -1,3 +1,2 @@
 ## Amazone Clone
 
-ReactJS - Firebase
